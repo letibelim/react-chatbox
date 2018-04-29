@@ -3,7 +3,9 @@ import React from 'react';
 class Message extends React.Component {
 	render() {
 		return (
-			<div className="message">test message</div>
+				<p className="user-message">
+					{this.props.pseudo}: Mon super message !
+				</p>
 			);
 	}
 }
